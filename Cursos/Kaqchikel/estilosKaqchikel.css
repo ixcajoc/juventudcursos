@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	font-family: sans-serif,serif;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+h1{font-size: 3rem}
+h2{font-size: 2rem}
+h3{font-size: 1.8rem}
+
+header {
+	width: 100%; height: 50vh;
+	background-image: linear-gradient(
+	0deg,
+	rgba(0, 0, 0, 0.70),
+	rgba(0, 0, 0, 0.70)
+	)
+	, url(../../imagenes/Kaqchikel/kaqchikel.gif);
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.titulos{
+	height: 25vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	text-align: center;
+}
+.titulos h1,h2{
+	margin: 0;
+}
+.titulos h1{
+	font-size: 4rem;
+}
+.titulos h2{
+	font-size: 1.5rem;
+	letter-spacing: .5rem;
+	word-spacing: .5rem;
+}
+nav a{
+	display: block;
+}
+
+nav a:hover{
+	color: skyblue;
+	text-decoration: underline;
+}
+.container-header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-top: 1rem;
+}
+
+#logo{
+	margin:.3rem ;
+	background-image: url(../../imagenes/Principal/logo.png);
+	height: 80px;
+	width: 4rem;
+	background-size: cover;
+	background-position: center;
+	margin-right: 5rem;
+	
+}
+
+footer{
+	height: 20vh;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+
+footer a:hover{
+	color: skyblue;
+	text-decoration: underline;
+}
+
+
+
+
